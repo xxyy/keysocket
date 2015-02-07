@@ -1,5 +1,7 @@
 Global keyboard bindings to control your Chrome-based music player. Allows your keyboard media keys (play/pause, next, previous) to work when you're listening to music on common streaming websites.
 
+This fork contains a modified YouTube socket, which **only** supports their HTML5 player. That's it. Nothing else different from the original. 
+
 **UPDATE: Now uses Chrome's built in key binding (as of version 25)**
 
 **Supported sites:**
@@ -24,7 +26,7 @@ Global keyboard bindings to control your Chrome-based music player. Allows your 
    * Tracksflow.com
    * vk.com (Vkontakte)
    * Яндекс.Музыка (Yandex.Music)
-   * Youtube.com
+   * **Youtube.com HTML5**
    * Xbox Music
    * Xiami Music
    * JB Hi-Fi Now
@@ -36,14 +38,20 @@ Global keyboard bindings to control your Chrome-based music player. Allows your 
 
 # Usage
 
-1. Install extension from the [chrome web store][crx].
-2. Edit the `Keyboard shortcuts` to give Keysocket 'Global' permissions
-    * open a browser tab to [chrome://extensions](chrome://extensions)
+1. Clone this thing: `git clone https://github.com/xxyy/keysocket.git`
+2. Open your Chrome extension menu by navigating to `☰ > More Tools... > Extensions` or `chrome://extensions`.
+3. Check `[ ] Developer mode` on the top right of the page.
+4. Click `[Load unpacked extension...]` and navigate to this repo's `extension` folder.
+5. Installation complete.
+6. Edit the `Keyboard shortcuts` to give Keysocket 'Global' permissions (apparently no longer necessary with latest Chrome)
     * scroll to the bottom & click `Keyboard shortcuts`
     * find `Keysocket Media Keys` and change each desired key to `Global`
 
+<!--
 # Contribute please!
 
 * Looking for adapters for other music players.
 
 [crx]: https://chrome.google.com/webstore/detail/fphfgdknbpakeedbaenojjdcdoajihik
+
+-->
