@@ -1,8 +1,14 @@
-Global keyboard bindings to control your Chrome-based music player. Allows your keyboard media keys (play/pause, next, previous) to work when you're listening to music on common streaming websites.
+# no longer maintained, no longer working
 
-This fork contains a modified YouTube socket, which **only** supports their HTML5 player. That's it. Nothing else different from the original. 
+YouTube changed their internals, so this fork doesn't work any more. I was about to go and fix it myself when I found [this](https://github.com/berrberr/streamkeys), which works pretty well and also offers more control. Please use that instead for the time being.
 
-**UPDATE: Now uses Chrome's built in key binding (as of version 25)**
+# old readme:
+
+~~Global keyboard bindings to control your Chrome-based music player. Allows your keyboard media keys (play/pause, next, previous) to work when you're listening to music on common streaming websites.~~
+
+~~This fork contains a modified YouTube socket, which **only** supports their HTML5 player. That's it. Nothing else different from the original.~~
+
+~~**UPDATE: Now uses Chrome's built in key binding (as of version 25)**~~
 
 **Supported sites:**
    * Amazon music player
@@ -36,7 +42,7 @@ This fork contains a modified YouTube socket, which **only** supports their HTML
    * Saavn.com
    * Ok.ru
 
-# Usage
+# ~~Usage~~
 
 1. Clone this thing: `git clone https://github.com/xxyy/keysocket.git`
 2. Open your Chrome extension menu by navigating to `☰ > More Tools... > Extensions` or `chrome://extensions`.
